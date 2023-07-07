@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.root {
+    height: 100%;
+    background-color: #E1E1E1;
+    justify-content: center;
+    justify-items: center;
+}
+.nav-bar {
+    height: 10%;
+    background-color: white;
+}
+.main {
+    height: 84%;
+    justify-content: center;
+    justify-items: center;
+}
+.row {
+    position: absolute;
+    width: 98%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #bebebe;
+    margin-top: 30px;
+    margin-left: 1%;
+}
+.signup {
+    width: 96%;
+    height: 88%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid #bebebe;
+}
+.signup-title {
+    background-color: #f0f3f5;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.signup-title h1 {
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.signup-detail {
+}
+.signup-form {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.label {
+    width: 20%;
+}
+.input-area {
+    width: 50%;
+}
+.input-area input {
+    height: 40px;
+    width: 100%;
+}
+.captcha-div{
+    display: block;
+}
+#submit-button {
+    background-color: #2ccb2c;
+    border-radius: 5px;
+}
+#submit-button:hover {
+    background-color: #01b901;
+}
+.message-error {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*display: none;*/
+}
+.footer {
+    height: 6%;
+    justify-content: center;
+    background-color: #d5fae8;
+}
+.footer div {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.reSendButton {
+    opacity: 0.3;
+    cursor: none;
+}
+.button-active {
+    opacity: 1;
+    cursor: pointer;
+}
